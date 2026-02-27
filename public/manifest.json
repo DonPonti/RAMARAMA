@@ -1,0 +1,16 @@
+{
+  "name": "Digital Rama Koti",
+  "short_name": "Rama Koti",
+  "description": "Write Sri Rama online — Digital Rama Nama Japa Counter",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#f97316",
+  "background_color": "#fdf8f0",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

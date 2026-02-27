@@ -1,0 +1,20 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background Transparent -->
+  <rect width="100%" height="100%" fill="transparent"></rect>
+
+  <!-- Bow Curve -->
+  <path d="M200 50 
+           Q340 400 200 750" stroke="#111111" stroke-width="14" fill="none" stroke-linecap="round"></path>
+
+  <!-- Bow String -->
+  <line x1="200" y1="50" x2="200" y2="750" stroke="#111111" stroke-width="4" stroke-linecap="round"></line>
+
+  <!-- Decorative Top Tip -->
+  <circle cx="200" cy="50" r="8" fill="#111111"></circle>
+
+  <!-- Decorative Bottom Tip -->
+  <circle cx="200" cy="750" r="8" fill="#111111"></circle>
+
+</svg>

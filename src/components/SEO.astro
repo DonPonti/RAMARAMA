@@ -1,0 +1,63 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  noindex?: boolean;
+}
+
+const {
+  title = 'Digital Rama Koti — Write Sri Rama Online | Rama Nama Japa Counter',
+  description = 'Write "Sri Rama" digitally and count your Rama Nama Japa online. A peaceful spiritual tool for devotees to complete Digital Rama Koti — 1 crore times.',
+  canonical = Astro.url.href,
+  ogImage = '/og-image.png',
+  noindex = false,
+} = Astro.props;
+
+const siteName = 'Digital Rama Koti';
+---
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+<meta name="keywords" content="Digital Rama Koti, Write Sri Rama Online, Rama Nama Japa Counter, Rama Koti online, Sri Rama japa, digital namajapa, Rama devotion" />
+<meta name="author" content="Digital Rama Koti" />
+<meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+<meta name="language" content="English" />
+<meta name="theme-color" content="#f97316" />
+<link rel="canonical" href={canonical} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonical} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(ogImage, Astro.site).href} />
+<meta property="og:site_name" content={siteName} />
+<meta property="og:locale" content="en_IN" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonical} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={new URL(ogImage, Astro.site).href} />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": siteName,
+  "url": Astro.site?.href,
+  "description": description,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": `${Astro.site?.href}?q={search_term_string}`
+    },
+    "query-input": "required name=search_term_string"
+  }
+})} />

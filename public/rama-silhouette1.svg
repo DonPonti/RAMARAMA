@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700" fill="currentColor">
+  <!-- Lord Rama silhouette - standing with bow and arrow, crown -->
+  
+  <!-- Crown / Mukut -->
+  <ellipse cx="200" cy="58" rx="28" ry="8" />
+  <rect x="183" y="30" width="8" height="30" rx="4"/>
+  <rect x="196" y="20" width="8" height="40" rx="4"/>
+  <rect x="209" y="30" width="8" height="30" rx="4"/>
+  <ellipse cx="187" cy="30" rx="5" ry="7"/>
+  <ellipse cx="200" cy="20" rx="5" ry="7"/>
+  <ellipse cx="213" cy="30" rx="5" ry="7"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="90" rx="26" ry="30"/>
+  
+  <!-- Neck -->
+  <rect x="192" y="116" width="16" height="18" rx="6"/>
+  
+  <!-- Shoulders & Upper body -->
+  <path d="M148 140 Q165 132 200 130 Q235 132 252 140 L258 200 Q230 210 200 212 Q170 210 142 200 Z"/>
+  
+  <!-- Dhoti / Lower body -->
+  <path d="M158 210 Q170 208 200 207 Q230 208 242 210 L248 320 Q230 330 200 332 Q170 330 152 320 Z"/>
+  
+  <!-- Left leg -->
+  <path d="M160 320 Q155 380 152 440 Q160 445 170 440 Q172 380 175 320 Z"/>
+  
+  <!-- Right leg -->
+  <path d="M240 320 Q245 380 248 440 Q240 445 230 440 Q228 380 225 320 Z"/>
+  
+  <!-- Feet -->
+  <ellipse cx="161" cy="445" rx="14" ry="7"/>
+  <ellipse cx="239" cy="445" rx="14" ry="7"/>
+  
+  <!-- Left arm (holding bow) -->
+  <path d="M148 148 Q118 165 100 200 Q95 215 100 220 Q108 222 114 218 Q128 185 155 168 Z"/>
+  
+  <!-- Right arm (drawing arrow) -->
+  <path d="M252 148 Q275 160 290 175 Q300 185 295 195 Q287 200 280 194 Q268 180 248 165 Z"/>
+  
+  <!-- Bow - large curved shape -->
+  <path d="M88 175 Q60 230 68 290 Q72 310 82 320 Q90 318 92 308 Q84 292 82 248 Q82 210 102 178 Z" fill-rule="evenodd"/>
+  
+  <!-- Bow string -->
+  <line x1="90" y1="178" x2="84" y2="316" stroke="currentColor" stroke-width="3"/>
+  
+  <!-- Arrow -->
+  <line x1="290" y1="190" x2="92" y2="248" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arrow head -->
+  <polygon points="88,244 96,240 96,256"/>
+  <!-- Arrow tail feathers -->
+  <path d="M290 190 L300 182 L294 196 Z"/>
+  <path d="M290 190 L302 194 L292 200 Z"/>
+  
+  <!-- Quiver on back (subtle) -->
+  <rect x="240" y="155" width="14" height="50" rx="7" opacity="0.7"/>
+  
+  <!-- Sacred thread (janeu) -->
+  <path d="M172 138 Q178 180 185 220" stroke="currentColor" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Decorative waistband -->
+  <rect x="156" y="205" width="88" height="10" rx="5" opacity="0.8"/>
+</svg>

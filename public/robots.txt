@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalramakoti.netlify.app/sitemap.xml
